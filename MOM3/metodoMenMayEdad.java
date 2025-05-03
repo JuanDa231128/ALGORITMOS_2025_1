@@ -18,7 +18,7 @@ public static void clasifiEdad() {
             System.out.println("Ingresa la edad:");
             edad = scanner.nextInt();
             if (edad > 0){
-                if (edad > 18){
+                if (edad >= 18){
                     mayedad ++;
                 }else {
                     menedad ++;
